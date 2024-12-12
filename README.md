@@ -7,6 +7,22 @@ University of Illinois at Urbana-Champaign
 Urbana, IL 61801
 
 Email: [prabhu5@illinois.edu](mailto:prabhu5@illinois.edu)
+# Table of Contents
+1. [Project Overview](#project-overview)
+2. [Methodology](#methodology)
+   - [Fixed-Point ViT Base Architecture](#1-fixed-point-vit-base-architecture)
+   - [Dynamic Growth Mechanism & Gradient-Driven Adaptation](#2-dynamic-growth-mechanism--gradient-driven-adaptation)
+3. [Applications](#applications)
+4. [Utility Functions](#utility-functions)
+   - [`fixed_point_quantize`](#fixed_point_quantize)
+5. [Components](#components)
+   - [FixedPointMLP](#1-fixedpointmlp)
+   - [FixedPointAttention](#2-fixedpointattention)
+   - [FixedPointTransformerEncoderLayer](#3-fixedpointtransformerencoderlayer)
+   - [FixedPointViT](#4-fixedpointvit)
+6. [Growth Criteria](#growth-criteria)
+7. [Growth Implementation](#growth-implementation)
+8. [Contact](#contact)
 
 ## Project Overview
 GradViT (Gradient-Driven Growing Vision Transformer in Fixed-Point) aims to develop an innovative Vision Transformer (ViT) architecture that operates entirely in fixed-point arithmetic and can dynamically grow based on loss and gradient information. This project addresses two critical challenges in edge AI:
