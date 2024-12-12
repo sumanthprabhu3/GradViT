@@ -148,7 +148,7 @@ The model checks the following conditions before triggering growth:
 **When the growth criteria are met, the following steps occur**:
 - Create a New Transformer Encoder Layer:
 - Weights of the new layer are initialized with a normal distribution:
-- Add the Layer to the Model**:
+- Add the Layer to the Model
 
 ---
 
