@@ -132,7 +132,7 @@ Implements the Vision Transformer (ViT) architecture with fixed-point arithmetic
 The model checks the following conditions before triggering growth:
 
 1. **Epoch-Based Trigger**:
-   - Growth is only allowed after a certain number of epochs (`epoch > 20`).
+   - Growth is only allowed after a certain number of initial epochs .
    - Growth occurs periodically, as determined by the parameter `grow_every_n_epochs`.
 
 2. **Gradient Norm Threshold**:
@@ -146,7 +146,7 @@ The model checks the following conditions before triggering growth:
 ## Growth Implementation
 
 **When the growth criteria are met, the following steps occur**:
-- Create a New Transformer Encoder Layer**:
+- Create a New Transformer Encoder Layer:
 - Weights of the new layer are initialized with a normal distribution:
 - Add the Layer to the Model**:
 
