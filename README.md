@@ -1,6 +1,13 @@
 
 # GradViT: Gradient-Driven Growing Vision Transformer in Fixed-Point
 
+**Author - Sumanth Prabhu**        
+**Department of Electrical and Computer Engineering**  
+University of Illinois at Urbana-Champaign  
+Urbana, IL 61801
+
+Email: [prabhu5@illinois.edu](mailto:prabhu5@illinois.edu)
+
 ## Project Overview
 GradViT (Gradient-Driven Growing Vision Transformer in Fixed-Point) aims to develop an innovative Vision Transformer (ViT) architecture that operates entirely in fixed-point arithmetic and can dynamically grow based on loss and gradient information. This project addresses two critical challenges in edge AI:
 
@@ -143,10 +150,7 @@ The model checks the following conditions before triggering growth:
 - Weights of the new layer are initialized with a normal distribution:
 - Add the Layer to the Model**:
 
-## References
-This project builds on ideas from the GEARnn paper by Vignesh and Prof. Shanbhag (2024), which presents methods for growing and training robust neural networks on edge devices.
-
 ---
 
 ## Contact
-For questions or collaboration, feel free to reach out to the project contributors!
+For questions or collaboration, feel free to reach out to me @prabhu5@illinois.edu!
