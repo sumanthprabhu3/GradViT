@@ -22,7 +22,8 @@ Email: [prabhu5@illinois.edu](mailto:prabhu5@illinois.edu)
    - [FixedPointViT](#4-fixedpointvit)
 6. [Growth Criteria](#growth-criteria)
 7. [Growth Implementation](#growth-implementation)
-8. [Contact](#contact)
+8. [Running Code on Google Colab with T4 GPU](#running-code-on-google-colab-with-t4-gpu)
+9. [Contact](#contact)
 
 ## Project Overview
 GradViT (Gradient-Driven Growing Vision Transformer in Fixed-Point) aims to develop an innovative Vision Transformer (ViT) architecture that operates entirely in fixed-point arithmetic and can dynamically grow based on loss and gradient information. This project addresses two critical challenges in edge AI:
@@ -167,6 +168,26 @@ The model checks the following conditions before triggering growth:
 - Add the Layer to the Model
 
 ---
+
+## Running Code on Google Colab with T4 GPU
+
+### 1. Open Google Colab
+- Go to [Google Colab](https://colab.research.google.com/).
+
+### 2. Create a New Notebook
+- Click on `File` → `New Notebook` to create a new notebook or open an existing one.
+
+### 3. Enable GPU
+- Click on `Runtime` in the menu bar.
+- Select `Change runtime type`.
+- Under the `Hardware accelerator` dropdown, choose `GPU`.
+- Click `Save`.
+
+### 4. Upload Code
+- You can upload your code and data to the Colab environment by clicking the Files tab on the left panel, and then using the file upload button.
+
+### 5. Run Code
+- After uploading your code and any required files, simply run your code by executing the cells in the notebook.
 
 ## Contact
 For questions or collaboration, feel free to reach out to me @prabhu5@illinois.edu!
